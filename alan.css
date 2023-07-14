@@ -1,0 +1,65 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    background-image: url("bg.webp");
+    background-size: cover;
+}
+h1{
+    font-size: 70px;
+}
+#dp{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* card1 */
+.card1{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color: #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* card2 */
+.card2{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color:  #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* card3 */
+.card3{
+    width: 200px;
+    margin-left: 50px;
+    height: 200px;
+    padding: 30px;
+    background-color: #ddebf8;
+    border-bottom: 30px solid #0e9adf;
+}
+.content3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards{
+    padding-top: 50px;
+}
+.card{  
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
